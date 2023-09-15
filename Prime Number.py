@@ -1,18 +1,18 @@
+# This is a Python script that prints a bunch of statements
 
-import numpy as np
-flag=1
-x=input("Enter a Number to check if its prime ")
-for y in range(int(int(x)/2)+1):
-    if(y>1):
-        if(int(x)%y==0):
-            flag=0
+# Printing a single statement
+print("Hello, I'm a Python script!")
 
-if(flag==1):
-    print("It is a Prime Number")
-else:
-    print("Not a Prime Number")       
-   
-    
+# Printing multiple statements
+print("Here are some more statements:")
+print("Statement 1")
+print("Statement 2")
+print("Statement 3")
+
+# Printing statements with variables
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
 
 
 
